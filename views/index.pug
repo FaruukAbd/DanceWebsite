@@ -1,0 +1,59 @@
+doctype html
+html 
+  head 
+    title Harry dance academy
+    style 
+      include ../static/style.css
+  body 
+    nav#navber.top 
+      ul 
+        div#logo 
+          img(src="/static/imgs/dancelogo.jpg")
+          | HDA
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class info]
+        li #[a(href="/") Contact Us]
+    section#headingsection 
+       div.large Welcome to Harry's Dandce Academy 
+       div.small Dance Eat Sleep Repeat
+    section#missionsection  
+      div Our Mission
+      div.container 
+         div.box 
+           h4 Dance Perfection
+           div.card-box 
+              div.card-img 
+                img(src="/static/imgs/d1.png")
+              div.card-content 
+                p this is best dance academy in the universe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ratione! 
+
+         div.box 
+           h4 Dance the way you like
+           div.card-box 
+              div.card-img 
+                img(src="/static/imgs/d4.png")
+              div.card-content 
+                p this is best dance academy in the universe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quo?
+         div.box 
+           h4 Expert Teaching 
+           div.card-box 
+              div.card-img 
+                img(src="/static/imgs/d3.png")
+              div.card-content 
+                p this is best dance academy in the universe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium maiores unde rerum libe.
+      section#sponsersection 
+       div Our Sponser
+       div.sponsers 
+          img(src="/static/logo/logo1.png", alt="sponser image loading" Class="spImg")
+          img(src="/static/logo/logo2.png", alt="sponser image loading" Class="spImg")
+          img(src="/static/logo/logo3.png", alt="sponser image loading" Class="spImg")
+          img(src="/static/logo/logo4.png", alt="sponser image loading" Class="spImg")
+          img(src="/static/logo/logo5.png", alt="sponser image loading" Class="spImg")
+      footer#footersection 
+       | Copyright 2019 ©HarryDanceAcademy.com| All rights reserved
+
+       
+      script 
+        include ../static/index.js
